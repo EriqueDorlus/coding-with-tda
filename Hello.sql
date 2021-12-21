@@ -82,6 +82,12 @@ ADD COLUMN DeliveryDate datetime;
  ADD PRIMARY KEY (Id); 
  
  AlTER TABLE Suppliers
- ADD PRIMARY KEY (Id)
+ ADD PRIMARY KEY (Id);
  
- ALTER TABLE 
+ 
+ INSERT INTO Suppliers
+ VALUES (1, "My Favorite Supplier", "Boca Raton, FL", "305-305-3055");
+ SELECt * 
+ FROM Suppliers;
+ SELECT phone
+ FROM Suppliers 
